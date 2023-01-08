@@ -56,6 +56,3 @@ class WorkTest(unittest.TestCase):
 
 if __name__ == "__main__":
 	unittest.main()
-	#test_work_id = 14454174 #work id of "Manacled"
-	#work = Work.get_work_from_id(test_work_id)
-	#orkTest.
