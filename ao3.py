@@ -48,6 +48,7 @@ class WorkTest(unittest.TestCase):
 		work = Work.get_work_from_id(manacled_work_id)
 		self.assertEqual(work.work_name, "Manacled")
 
+	#Check if chapter count is computed correctly
 	def test_work_count(self):
 		manacled_work_id = 14454174
 		work = Work.get_work_from_id(manacled_work_id)
